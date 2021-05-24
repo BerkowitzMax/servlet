@@ -27,13 +27,13 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/net.sourceforge.jeval/jeval -->
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
-            <groupId>net.sourceforge.jeval</groupId>
-            <artifactId>jeval</artifactId>
-            <version>0.9.4</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
     <build>
